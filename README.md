@@ -1,10 +1,10 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - Sea Monster 
 
-Submitted by: **Your Name Here**
+Submitted by: Ezekiel Ekanem
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+Sea Monster is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: 15 hours spent in total
 
 ## Required Features
 
@@ -17,13 +17,15 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [ ] The header section is fixed to the top of the page and can be accessed at all times on the page
+* [ ] The header section contains links that enables a user to navigate to the stats and games section easily. It also contains a link to take the user back to the top of the page.
+* [ ] Whenever any of the buttons in the 'Our Games' section has been clicked, it changes color in response to the click action.  
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./assets/web102_prework.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -34,11 +36,11 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+It was a little challenging to quickly learn and get used to some javascript concepts that were new to me, such as destructuring and spread, but as I read more about them, they got clearer to me. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Ezekiel Ekanem]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

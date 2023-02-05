@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-image: linear-gradient(to right, #295182, #36577f);
 }
 
 #tentacles {
@@ -11,16 +11,48 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-image: linear-gradient(rgb(29, 86, 105), rgb(10, 58, 74));
     padding: 1%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: -40px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-tags {
+    display: inline-flex;
+    list-style: none;
+}
+
+.nav-list {
+    padding: 20px;
+    font-size: large;
+}
+
+.intext-link {
+    text-decoration: none;
+    border: 1px solid rgba(157, 203, 218, 0);
+    color: rgb(33, 33, 186);
+}
+
+.intext-link:hover {
+    border-width: 3px;
 }
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
